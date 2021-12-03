@@ -1,2 +1,2 @@
 # tecnos
-yese
+2nd BACH corazonistaslamina tech repo. ☄️☄️☄️
