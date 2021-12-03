@@ -2,7 +2,7 @@
 const int pin2 = 7;
 const int pin3 = 8;*/
 
-//declare array of LED pins, loop count var and time interva
+//declare array of LED pins, loop count var and time interval
 int ledArray[] = { 6, 7, 8, 9, 10, 11 };
 int counts = 0;
 int time = 50;
@@ -30,6 +30,8 @@ void loop() {
     Serial.print(ledArray[counts]);
   }
 }
+
+//VERSION WITHOUT ARRAY
 /*void setup() {
   // set LED inputs and turn them off
   pinMode(pin1, OUTPUT);
